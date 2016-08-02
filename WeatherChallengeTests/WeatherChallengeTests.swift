@@ -1,15 +1,15 @@
 //
-//  MakeSchoolChallengeTests.swift
-//  MakeSchoolChallengeTests
+//  WeatherChallengeTests.swift
+//  WeatherChallengeTests
 //
 //  Created by Nikita Pahadia on 30/03/2016.
 //  Copyright © 2016 Nikita. All rights reserved.
 //
 
 import XCTest
-@testable import MakeSchoolChallenge
+@testable import WeatherChallenge
 
-class MakeSchoolChallengeTests: XCTestCase {
+class WeatherChallengeTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

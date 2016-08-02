@@ -24,6 +24,7 @@
 		4FD836E01CD2B4990064A7A5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FD836DE1CD2B4990064A7A5 /* Info.plist */; };
 		4FD836E61CD2B4D50064A7A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD836E21CD2B4D50064A7A5 /* LaunchScreen.storyboard */; };
 		4FD836E71CD2B4D50064A7A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD836E41CD2B4D50064A7A5 /* Main.storyboard */; };
+		4FE579821D5136AC007BEAED /* WeatherChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE579801D513611007BEAED /* WeatherChallengeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		4FD836DE1CD2B4990064A7A5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = WeatherChallengeTests/Info.plist; sourceTree = SOURCE_ROOT; };
 		4FD836E31CD2B4D50064A7A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = WeatherChallenge/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		4FD836E51CD2B4D50064A7A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = WeatherChallenge/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		4FE579801D513611007BEAED /* WeatherChallengeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherChallengeTests.swift; path = WeatherChallengeTests/WeatherChallengeTests.swift; sourceTree = SOURCE_ROOT; };
 		DDED0C381CAC915D00B82EE7 /* WeatherChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDED0C4C1CAC915D00B82EE7 /* WeatherChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -115,6 +117,7 @@
 		DDED0C4F1CAC915D00B82EE7 /* WeatherChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
+				4FE579801D513611007BEAED /* WeatherChallengeTests.swift */,
 				4FD836DE1CD2B4990064A7A5 /* Info.plist */,
 			);
 			name = WeatherChallengeTests;
@@ -281,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FE579821D5136AC007BEAED /* WeatherChallengeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,7 +405,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WeatherChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikitapahadia.iosapp.MakeSchoolChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikitapahadia.iosapp.WeatherChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -412,7 +416,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WeatherChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikitapahadia.iosapp.MakeSchoolChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikitapahadia.iosapp.WeatherChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -421,11 +425,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = MakeSchoolChallengeTests/Info.plist;
+				INFOPLIST_FILE = WeatherChallengeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikitapahadia.iosapp.MakeSchoolChallengeTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikitapahadia.iosapp.WeatherChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakeSchoolChallenge.app/MakeSchoolChallenge";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeatherChallenge.app/WeatherChallenge";
 			};
 			name = Debug;
 		};
@@ -433,11 +437,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = MakeSchoolChallengeTests/Info.plist;
+				INFOPLIST_FILE = WeatherChallengeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikitapahadia.iosapp.MakeSchoolChallengeTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikitapahadia.iosapp.WeatherChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakeSchoolChallenge.app/MakeSchoolChallenge";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeatherChallenge.app/WeatherChallenge";
 			};
 			name = Release;
 		};
